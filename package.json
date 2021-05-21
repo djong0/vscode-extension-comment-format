@@ -16,7 +16,7 @@
 		"onCommand:comment.format.add"
 	],
 	"main": "./out/extension.js",
-	"icon": "./image/icon.png",
+	"icon": "image/icon.png",
 	"contributes": {
 		"commands": [
 			{

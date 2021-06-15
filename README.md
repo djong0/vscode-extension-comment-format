@@ -1,17 +1,24 @@
-# example1
-    a//comment                                          a   //comment
-    ab //comment         ->(command:comment format)     ab  //comment
-    abc    //comment                                    abc //comment
+# 1
+    a//comment
+    ab //comment
+    abc    //comment
 ![example1](./image/example1.gif)
 
-# example2
-    a//comment                                          a   //comment
-    ab                   ->(command:comment format)     ab
-    abc    //comment                                    abc //comment
+# 2
+    a//comment
+    ab
+    abc    //comment
 ![example2](./image/example2.gif)
 
-# example3
-    a//comment                                          a   //comment
-    ab                   ->(command:comment format(A))  ab  //
-    abc    //comment                                    abc //comment
+# 3 (A)
+    a//comment
+    ab
+    abc    //comment
 ![example3](./image/example3.gif)
+
+# 4
+## since v0.0.2
+    a//comment
+    ab
+    abc    //       comment
+![example4](./image/example4.gif)

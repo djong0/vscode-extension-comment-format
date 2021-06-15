@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 ## v0.0.1
-init
+* init
 ## v0.0.2
-Fixed: Fix the tab character at the beginning of the line 
-Added: Remove the space after the comment
+* Fixed: Fix the tab character at the beginning of the line 
+* Added: Remove the space after the comment

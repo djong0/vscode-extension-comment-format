@@ -2,7 +2,7 @@
 	"name": "comment-format",
 	"displayName": "comment format",
 	"description": "comment format",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "dlang",
 	"repository": "https://github.com/djong0/vscode-extension-comment-format",
 	"engines": {
@@ -13,7 +13,8 @@
 	],
 	"activationEvents": [
 		"onCommand:comment.format.without.add",
-		"onCommand:comment.format.add"
+		"onCommand:comment.format.add",
+        "onCommand:comment.format.change"
 	],
 	"main": "./out/extension.js",
 	"icon": "image/icon.png",
@@ -26,7 +27,11 @@
 			{
 				"command": "comment.format.add",
 				"title": "comment format(A)"
-			}
+			},
+            {
+                "command": "comment.format.change",
+                "title": "comment format(C)"
+            }
 		],
 		"menus": {
 			"editor/context": [
@@ -39,7 +44,12 @@
 					"when": "editorFocus",
 					"command": "comment.format.add",
 					"group": "comment format"
-				}
+				},
+                {
+                    "when": "editorFocus",
+                    "command": "comment.format.change",
+                    "group": "comment format"
+                }
 			]
 		}
 	},

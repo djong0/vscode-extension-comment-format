@@ -12,3 +12,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Added: Remove the space after the comment.
 ## v0.0.3
 * Added: Add Command (C) to change Comment head to tail or tail to head.
+## v0.0.4
+* Fixed: Remove unused white.

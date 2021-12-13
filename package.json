@@ -2,7 +2,7 @@
 	"name": "comment-format",
 	"displayName": "comment format",
 	"description": "comment format",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "dlang",
 	"repository": "https://github.com/djong0/vscode-extension-comment-format",
 	"engines": {
